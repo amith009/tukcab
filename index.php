@@ -5,10 +5,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <?php 
 
-require "php/auth.php";
-require_once "php/connection.php";
-//include 'php/session-watch.php';
-$eid = $_SESSION['EMP_ID'];
 $date = date('Y-m-d');
  //profile image
 
