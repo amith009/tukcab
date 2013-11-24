@@ -1,0 +1,96 @@
+ul{list-style:none;}
+
+/* Vertical Mega Menu Styles */
+.dcjq-vertical-mega-menu .menu{
+font: bold 13px Arial, sans-serif; 
+position: relative; /* Required */
+}
+.dcjq-vertical-mega-menu .menu li a {
+display: block; 
+}
+.dcjq-vertical-mega-menu .menu li a:hover, .dcjq-vertical-mega-menu .menu li.mega-hover a {
+}
+.dcjq-vertical-mega-menu .menu li a.dc-mega {
+position: relative;
+}
+/* Add arrow icon to parent links */
+.dcjq-vertical-mega-menu .menu li a .dc-mega-icon {
+
+}
+.dcjq-vertical-mega-menu .menu li a:hover .dc-mega-icon, .dcjq-vertical-mega-menu .menu li.mega-hover a .dc-mega-icon {
+background-position: 0 0;
+}
+/* Mega menu container */
+.dcjq-vertical-mega-menu .menu li .sub-container {
+position: absolute; /* Required */
+overflow: hidden;
+}
+.dcjq-vertical-mega-menu .menu li .sub-container .sub {
+border: none;
+}
+.dcjq-vertical-mega-menu .menu li .sub .row {
+width: 100%; overflow: hidden; /* Clear floats */
+}
+.dcjq-vertical-mega-menu .menu li .sub li {
+float: none; 
+font-size: 1em; 
+font-weight: normal;
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr {
+float: left; /* Required */
+}
+.dcjq-vertical-mega-menu .menu li .sub a, .dcjq-vertical-mega-menu .menu.left li .sub a {
+background: none; 
+border: none; 
+text-shadow: none;
+float: none;
+color: #000; 
+display: block;
+text-decoration: none; 
+font-size: 0.9em;
+margin-bottom: 0;
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a {
+
+}
+.dcjq-vertical-mega-menu .menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+
+}
+.dcjq-vertical-mega-menu .menu .sub li.mega-hdr li {}
+.dcjq-vertical-mega-menu .menu .sub li a {
+font-weight: normal;
+text-transform: capitalize; font-size: 12px;
+}
+.dcjq-vertical-mega-menu .menu .sub li a:hover {
+}
+.dcjq-vertical-mega-menu .menu .sub ul li {
+padding-right: 0;
+}
+
+/* Styling for menu items with only 2 levels */
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega .sub {
+padding: 0px;
+background: #c2c8cb;
+text-align:left;
+}
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega .sub li a {
+color:#000;
+margin:0;
+padding:3px;
+}
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega .sub li {
+
+background: #9cc4dd; border:1px solid #a0c8e1;
+}
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega .sub li:hover{
+ background:#008AFF;   
+}
+.dcjq-vertical-mega-menu .menu li .sub-container.non-mega li {
+padding: 0; 
+margin: 0;
+width: 150px;
+float: none;
+}
+
+
+
