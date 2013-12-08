@@ -3,6 +3,25 @@
 <!--[if IE 7]>            <html class="no-js lt-ie9 lt-ie8">          <![endif]-->
 <!--[if IE 8]>            <html class="no-js lt-ie9">                 <![endif]-->
 <!--[if gt IE 8]><!-->  <html class="no-js">                        <!--<![endif]-->
+
+<?php 
+
+require "php/auth.php";
+require_once "php/connection.php";
+//include 'php/session-watch.php';
+$eid = $_SESSION['EMP_ID'];
+$date = date('Y-m-d');
+ //profile image
+
+ $img = mysql_query("SELECT emp_img_content,access_level FROM `employee` WHERE `emp_id` = '$eid'");
+ $coimg = mysql_num_rows($img);
+
+ $roEmp = mysql_fetch_assoc($img);
+ $imgEmp = $roEmp['emp_img_content'];
+ $type = $roEmp['access_level'];
+
+ //end profile image
+?>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

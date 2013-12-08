@@ -1,0 +1,103 @@
+/* 
+    Document   : theme
+    Created on : Apr 8, 2013, 11:26:40 PM
+    Author     : ono
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+this file intentionally left blank
+*/
+body{padding:50px 0px 25px 0px;}
+
+
+#wrap {background:#e8e9ea; color:#0a0a0a;padding-bottom:30px;}
+#footer {background-color: #00639e;
+background-image: -moz-linear-gradient(top,#00639e,#1971a5);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#00639e),to(1971a5));
+background-image: -webkit-linear-gradient(top,#00639e,#1971a5);
+background-image: -o-linear-gradient(top,#00639e,#1971a5);
+background-image: linear-gradient(to bottom,#00639e,#1971a5);
+background-repeat: repeat-x;
+border-color: #1971a5;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222',endColorstr='#ff111111',GradientType=0);color:#ffffff; text-align:left;position: fixed;width: 100%;bottom: 0px;height:24px; border-top:0px;}
+#footer p{text-align:right; padding:0px 10px;}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+ul#menu > li > a:hover,
+ul#menu > li:hover > a,
+ul#menu > li.active > a {
+	background-color: #c72c28;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+ul#menu > li > a:hover,
+ul#menu > li:hover > a,
+ul#menu > li.active > a {
+	-webkit-box-shadow: 0 1px 0 0 #c72c28 inset;
+	-moz-box-shadow: 0 1px 0 0 #c72c28 inset;
+	box-shadow: 0 1px 0 0 #c72c28 inset;
+	-webkit-transition: height 0.4s ease-out 0s;
+	-moz-transition: height 0.4s ease-out 0s;
+	-o-transition: height 0.4s ease-out 0s;
+	transition: height 0.4s ease-out 0s;
+}
+
+#top > .navbar {
+	border-top: 3px solid #c72c28;
+position: fixed;
+width: 100%;
+top: 0px;
+z-index: 999999;
+box-shadow: 4px 4px 6px #333;
+}
+
+
+.navbar-inverse .navbar-inner {background-color: #00639e;
+background-image: -moz-linear-gradient(top,#00639e,#1971a5);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#00639e),to(1971a5));
+background-image: -webkit-linear-gradient(top,#00639e,#1971a5);
+background-image: -o-linear-gradient(top,#00639e,#1971a5);
+background-image: linear-gradient(to bottom,#00639e,#1971a5);
+background-repeat: repeat-x;
+border-color: #1971a5;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222',endColorstr='#ff111111',GradientType=0);
+}
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {color:#ffffff;}
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {background-color: #0a6591;}
+.head {background-color:#2e3437;}
+#left .user-media {color:#444444;}
+.style-switcher h5 a{left:-227px; background:#139216;}
+.well.dark{color:#ffffff;}
+
+
+
+#menu > li > a {
+border-bottom: 1px solid #252525;
+-webkit-box-shadow: 0 0 0 #999999, 0 1px 0 #666666 inset;
+-moz-box-shadow: 0 0 0 #999999, 0 1px 0 #666666 inset;
+box-shadow: 0 0 0 #999999, 0 1px 0 #666666 inset;
+background-color: #474747;
+background-image: -moz-linear-gradient(top, #555555, #333333);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#333333));
+background-image: -webkit-linear-gradient(top, #555555, #333333);
+background-image: -o-linear-gradient(top, #555555, #333333);
+background-image: linear-gradient(to bottom, #555555, #333333);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff555555', endColorstr='#ff333333', GradientType=0);
+color: #FFFFFF;
+display: block;
+font-size: 11px;
+font-weight: bold;
+padding: 10px;
+position: relative;
+text-decoration: none;
+text-shadow: 0 1px 1px #000000;
+}
